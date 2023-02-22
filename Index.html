@@ -1,0 +1,84 @@
+<h1
+ style="color: white; font-size: 30px;"
+>si el video no carga espera unos segundo a que se optimice o cambia de navegador </h1>
+
+<style>
+
+body{
+    background-color: black
+}
+
+</style>
+
+
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+
+  
+
+<video height="490px"id="video-id"><source src="https://p2-27.pvvstream.pro/QJ7MlHOB9OWv9w1zMeEC6w/-160586466_456252566/720/vkvd256.mycdn.me/?expires=1677191186477&srcIp=185.213.88.42&pr=40&srcAg=STAGEFRIGHT&ms=45.136.20.177&type=3&sig=h8eYnwTghjQ&ct=0&urls=185.226.53.150&clientType=13&appId=512000384397&id=2525411084898play&dl=1" type="video/mp4" />
+
+<script>
+
+    var myFP = fluidPlayer(
+
+        'video-id',	{
+
+	"layoutControls": {
+
+		"controlBar": {
+
+			"autoHideTimeout": 3,
+
+			"animated": true,
+
+			"autoHide": true
+
+		},
+
+		"htmlOnPauseBlock": {
+
+			"html": null,
+
+          
+
+          
+
+			"height": "200",
+
+			"width": ""
+
+		},
+
+		"autoPlay": false,
+
+		"mute": false,
+
+		"allowTheatre": true,
+
+		"playPauseAnimation": true,
+
+		"playbackRateEnabled": false,
+
+		"allowDownload": true,
+
+		"playButtonShowing": true,
+
+		"fillToContainer": false,
+
+		"posterImage": ""
+
+	},
+
+	"vastOptions": {
+
+		"adList": [],
+
+		"adCTAText": false,
+
+		"adCTATextPosition": ""
+
+	}
+
+});
+
+</script>
